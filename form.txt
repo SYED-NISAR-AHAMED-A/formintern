@@ -1,0 +1,72 @@
+<h1  id="title">student intern form
+</h1>
+<p id="description">kindly fill the form
+</p>
+<form id="survey-form">
+
+  <label id="name-label">Name</label>
+<div>
+  <input id="name" type ="text" name="name" placeholder="enter your name" required/>
+</div>
+ 
+  <label id="email-label" >Email</label>
+<div>
+  <input id="email" type ="email" name="mailid" placeholder="enter email id" required/>
+</div>
+  <label id="number-label">Age(optional)</label>
+<div>
+  <input id="number" type ="number" name="age"placeholder="enter your age" min="15" max="30" required/>
+  
+</div>
+  <label id="number-label">Phone number</label>
+<div>
+  <input id="number" type ="number" name="number" placeholder="enter contact no." required/>
+</div>
+<label>How many days done</label>
+<div>
+<select id="dropdown">
+  <option>null</option>
+  <option>15 days</option>
+  <option>20 days</option>
+  <option>30days</option>
+  </div>
+</select>
+<br>
+<label>Do you have done exta course?</label>
+<br>
+<input name="course" value="yes" course="yes" type="radio">yes</label>
+
+<input name="course" value="no" course="no" type="radio">no</label>
+<br>
+<label>Depatment:</label>
+<br>
+<input  type="checkbox" value="ECE">
+<label>ECE<label>
+
+<br>
+<input  type="checkbox" value="EEE">
+<label>EEE<label>
+
+<br>
+<input  type="checkbox" value="CSE">
+<label>CSE<label>
+
+<br>
+<input  type="checkbox" value="IT">
+<label>IT<label>
+
+<br>
+<input  type="checkbox" value="CE">
+<label>CE<label>
+
+<br>
+<input  type="checkbox" value="ME">
+<label>ME<label>
+  <br>
+<label>list the courses you have done</label>  
+<textarea id="text" type="text"></textarea>
+<br>
+<br>
+<button id="submit">submit</button>
+</form>
+
